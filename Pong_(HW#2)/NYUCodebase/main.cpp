@@ -38,6 +38,7 @@ int main(int argc, char *argv[])
     
     glm::mat4 projectionMatrix = glm::mat4(1.0f);
     glm::mat4 viewMatrix = glm::mat4(1.0f);
+    glm::mat4 modelMatrix = glm::mat4(1.0f);
     
     projectionMatrix = glm::ortho(-1.777f, 1.777f, -1.0f, 1.0f, -1.0f, 1.0f);
     
@@ -61,6 +62,12 @@ int main(int argc, char *argv[])
     float distance2x = 0.0f;
     float distance2y = 0.0f;
     
+    const Uint8 *keys = SDL_GetKeyboardState(NULL);
+    
+    program.SetModelMatrix(modelMatrix);
+    program.SetProjectionMatrix(projectionMatrix);
+    program.SetViewMatrix(viewMatrix);
+    
 #ifdef _WINDOWS
     glewInit();
 #endif
@@ -73,16 +80,16 @@ int main(int argc, char *argv[])
                 done = true;
             }
             else if (event.type == SDL_KEYDOWN){
-                if(event.key.keysym.scancode == SDL_SCANCODE_UP){
+                if(keys[SDL_SCANCODE_UP]){
                     paddle2y += elapsed * 50.0f;
                 }
-                else if (event.key.keysym.scancode == SDL_SCANCODE_DOWN){
+                else if (keys[SDL_SCANCODE_DOWN]){
                     paddle2y -= elapsed * 50.0f;
                 }
-                else if (event.key.keysym.scancode == SDL_SCANCODE_W){
+                if (keys[SDL_SCANCODE_W]){
                     paddle1y += elapsed * 50.0f;
                 }
-                else if (event.key.keysym.scancode == SDL_SCANCODE_S){
+                else if (keys[SDL_SCANCODE_S]){
                     paddle1y -= elapsed * 50.0f;
                 }
             }
@@ -94,14 +101,12 @@ int main(int argc, char *argv[])
         elapsed = ticks - lastFrameTicks;
         lastFrameTicks = ticks;
         
-        glm::mat4 modelMatrix = glm::mat4(1.0f);
+        modelMatrix = glm::mat4(1.0f);
         
         modelMatrix = glm::translate(modelMatrix, glm::vec3(-1.6f, paddle1y, 0.0f));
         modelMatrix = glm::scale(modelMatrix, glm::vec3(0.20f, 0.7f, 1.0f));
         
         program.SetModelMatrix(modelMatrix);
-        program.SetProjectionMatrix(projectionMatrix);
-        program.SetViewMatrix(viewMatrix);
         
         //Paddle 1
         float vertices[] = {-0.25, -0.25, 0.25, -0.25, 0.25, 0.25, -0.25, -0.25, 0.25, 0.25, -0.25, 0.25};
