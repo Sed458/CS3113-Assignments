@@ -6,3 +6,6 @@ polygons.
 - You can use any images you want, but feel free to use the
 assets in the class github repo.
 - You must use at least 3 different textures.
+
+## Assignment #2
+- Make Pong
