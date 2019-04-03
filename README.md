@@ -9,3 +9,7 @@ assets in the class github repo.
 
 ## Assignment #2
 - Make Pong
+
+## Assignment #3
+- Make Space Invaders
+- Must use at least one sprite sheet
