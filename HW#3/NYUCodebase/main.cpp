@@ -732,7 +732,6 @@ int main(int argc, char *argv[])
                 accumulator = elapsed;
         
         ProcessInput();
-        //Update(elapsed);
         Render();
     }
     
