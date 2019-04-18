@@ -2,6 +2,10 @@
 <Workspace
    version = "1.0">
    <FileRef
+<<<<<<< HEAD
       location = "self:">
+=======
+      location = "self:..">
+>>>>>>> 1635a8f0d9affe0ceafcd5f238ea27a4a12c5d7b
    </FileRef>
 </Workspace>
