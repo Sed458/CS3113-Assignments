@@ -15,7 +15,7 @@ void StartScreen::Setup(GLuint tTexture, GLuint bTexture){
     buttonTexture = bTexture;
     start = false;
     yPos = 0.0f;
-    fallDown = false;
+    fallDown = true;
     
     SpriteSheet sSprite(buttonTexture, 0.0f/512.0f, 45.0f/256.0f, 190.0f/512.0f, 49.0f/256.0f, 0.2f);
     startButton = sSprite;
@@ -39,9 +39,9 @@ float PosY = 3.0f;
 void StartScreen::Render(ShaderProgram &program){
     //Draw Title
     glm::mat4 modelMatrix = glm::mat4(1.0f);
-    modelMatrix = glm::translate(modelMatrix, glm::vec3(-0.85f, yPos, 0.0f));
+    modelMatrix = glm::translate(modelMatrix, glm::vec3(-1.0f, yPos, 0.0f));
     program.SetModelMatrix(modelMatrix);
-    DrawText(program, textTexture, "Untitled", 0.145, 0.1);
+    DrawText(program, textTexture, "Uncharted", 0.145, 0.1);
     
     //Draw Start Button
     modelMatrix = glm::mat4(1.0f);
@@ -58,7 +58,6 @@ void StartScreen::Render(ShaderProgram &program){
 }
 
 float animationTime = 0.0f;
-bool fallDown = true;
 void StartScreen::Update(float elapsed){
     //Title Animation (Fall Down)
     animationTime = animationTime + elapsed;
