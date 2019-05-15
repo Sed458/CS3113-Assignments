@@ -81,16 +81,16 @@ int main(int argc, char *argv[])
             }
             else if (event.type == SDL_KEYDOWN){
                 if(keys[SDL_SCANCODE_UP]){
-                    paddle2y += elapsed * 50.0f;
+                    paddle2y += elapsed * 10.0f;
                 }
                 else if (keys[SDL_SCANCODE_DOWN]){
-                    paddle2y -= elapsed * 50.0f;
+                    paddle2y -= elapsed * 10.0f;
                 }
                 if (keys[SDL_SCANCODE_W]){
-                    paddle1y += elapsed * 50.0f;
+                    paddle1y += elapsed * 10.0f;
                 }
                 else if (keys[SDL_SCANCODE_S]){
-                    paddle1y -= elapsed * 50.0f;
+                    paddle1y -= elapsed * 10.0f;
                 }
             }
         }

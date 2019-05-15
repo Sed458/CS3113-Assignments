@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="right-down" width="16" height="19" tilewidth="20" tileheight="20" infinite="0" nextlayerid="5" nextobjectid="39">
+ <tileset firstgid="1" source="../../HW#4/NYUCodebase/MySprites.tsx"/>
+ <tileset firstgid="901" source="MySprites.tsx"/>
+ <layer id="4" name="Tile Layer 1" width="16" height="19">
+  <data encoding="base64">
+   FgMAALQCAAC1AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALMCAAC0AgAAvAIAALQCAAAWAwAAtQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACzAgAAvAIAALQCAAC0AgAAvAIAALUCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAswIAALQCAAC0AgAAtAIAALQCAAC1AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALMCAAC0AgAAvAIAALQCAAC8AgAAtQIAAAAAAAAAAAAAAAAAALwCAAC8AgAAvAIAALwCAAAAAAAAAAAAAAAAAACzAgAAtAIAALwCAAC8AgAAtAIAALUCAAC8AgAAvAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALwCAAC8AgAAswIAABYDAAC0AgAAtAIAABYDAAC1AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALMCAAC0AgAAtAIAALQCAAC0AgAAtQIAALwCAAC8AgAAvAIAAAAAAAAAAAAAAAAAAAAAAAC8AgAAvAIAALwCAACzAgAAtAIAALQCAAC0AgAAvAIAALUCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAswIAALwCAAC0AgAAtAIAALQCAAC1AgAAAAAAAAAAAAAAAAAAAAAAALwCAAC8AgAAAAAAAAAAAAAAAAAAAAAAALMCAAC0AgAAvAIAABYDAAC0AgAAtQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACzAgAAFgMAALQCAAC0AgAAtAIAALUCAAAAAAAAAAAAAAAAAAC8AgAAvAIAALwCAAC8AgAAAAAAAAAAAAAAAAAAswIAALQCAAC0AgAAtAIAALQCAAC1AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALMCAAC0AgAAtAIAALQCAAAWAwAAtQIAALwCAAC8AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvAIAALwCAACzAgAAtAIAALwCAAC0AgAAtAIAALUCAAAAAAAAAAAAAAAAAAAAAAAAvAIAALwCAAAAAAAAAAAAAAAAAAAAAAAAswIAALQCAAC0AgAAvAIAALQCAAC1AgAAAAAAAAAAAAAAAAAAvAIAALQCAAC0AgAAvAIAAAAAAAAAAAAAAAAAALMCAAC8AgAAtAIAABYDAAC0AgAAtQIAALwCAAC8AgAAvAIAALwCAAC0AgAAtAIAALwCAAC8AgAAvAIAALwCAACzAgAAtAIAABYDAAC0AgAAvAIAALQCAAC0AgAAtAIAABYDAAC0AgAAtAIAALQCAAAWAwAAtAIAALQCAAC0AgAAtAIAALwCAAC0AgAAtAIAALQCAAC0AgAAvAIAALQCAAC0AgAAtAIAALwCAAC0AgAAtAIAALQCAAC8AgAAtAIAALwCAAC0AgAAtAIAAA==
+  </data>
+ </layer>
+ <objectgroup id="3" name="ObjectLayer">
+  <object id="1" name="Coin" type="ITEM_COIN" gid="79" x="80" y="320" width="20" height="20"/>
+  <object id="2" name="Coin" type="ITEM_COIN" gid="79" x="100" y="320" width="20" height="20"/>
+  <object id="3" name="Coin" type="ITEM_COIN" gid="79" x="200" y="320" width="20" height="20"/>
+  <object id="4" name="Coin" type="ITEM_COIN" gid="79" x="220.2" y="320" width="20" height="20"/>
+  <object id="5" name="Coin" type="ITEM_COIN" gid="79" x="60" y="260" width="20" height="20"/>
+  <object id="6" name="Coin" type="ITEM_COIN" gid="79" x="80" y="260" width="20" height="20"/>
+  <object id="7" name="Coin" type="ITEM_COIN" gid="79" x="120" y="220" width="20" height="20"/>
+  <object id="8" name="Coin" type="ITEM_COIN" gid="79" x="140" y="220" width="20" height="20"/>
+  <object id="9" name="Coin" type="ITEM_COIN" gid="79" x="160" y="220" width="20" height="20"/>
+  <object id="10" name="Coin" type="ITEM_COIN" gid="79" x="180" y="220" width="20" height="20"/>
+  <object id="11" name="Coin" type="ITEM_COIN" gid="79" x="220" y="260" width="20" height="20"/>
+  <object id="12" name="Coin" type="ITEM_COIN" gid="79" x="240" y="260" width="20" height="20"/>
+  <object id="13" name="Coin" type="ITEM_COIN" gid="79" x="140" y="180" width="20" height="20"/>
+  <object id="14" name="Coin" type="ITEM_COIN" gid="79" x="160" y="180" width="20" height="20"/>
+  <object id="15" name="Coin" type="ITEM_COIN" gid="79" x="60" y="140" width="20" height="20"/>
+  <object id="16" name="Coin" type="ITEM_COIN" gid="79" x="80" y="140" width="20" height="20"/>
+  <object id="17" name="Coin" type="ITEM_COIN" gid="79" x="100" y="140" width="20" height="20"/>
+  <object id="20" name="Coin" type="ITEM_COIN" gid="79" x="200" y="140" width="20" height="20"/>
+  <object id="21" name="Coin" type="ITEM_COIN" gid="79" x="220" y="140" width="20" height="20"/>
+  <object id="22" name="Coin" type="ITEM_COIN" gid="79" x="240" y="140" width="20" height="20"/>
+  <object id="23" name="Coin" type="ITEM_COIN" gid="79" x="240" y="100" width="20" height="20"/>
+  <object id="24" name="Coin" type="ITEM_COIN" gid="79" x="60" y="100" width="20" height="20"/>
+  <object id="25" name="Coin" type="ITEM_COIN" gid="79" x="80" y="100" width="20" height="20"/>
+  <object id="26" name="Coin" type="ITEM_COIN" gid="79" x="220" y="100" width="20" height="20"/>
+  <object id="27" name="Coin" type="ITEM_COIN" gid="79" x="180" y="80" width="20" height="20"/>
+  <object id="28" name="Coin" type="ITEM_COIN" gid="79" x="160" y="80" width="20" height="20"/>
+  <object id="29" name="Coin" type="ITEM_COIN" gid="79" x="140" y="80" width="20" height="20"/>
+  <object id="30" name="Coin" type="ITEM_COIN" gid="79" x="120" y="80" width="20" height="20"/>
+  <object id="35" name="Enemy" type="ENTITY_ENEMY" gid="1346" x="60" y="320" width="20" height="20"/>
+  <object id="36" name="Enemy" type="ENTITY_ENEMY" gid="1346" x="240" y="320" width="20" height="20"/>
+  <object id="38" name="Enemy" type="ENTITY_ENEMY" gid="1346" x="140" y="80" width="20" height="20"/>
+ </objectgroup>
+</map>

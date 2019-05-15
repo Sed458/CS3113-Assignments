@@ -481,21 +481,21 @@ void collisionY(){
 
 void collisionX(){
     //Left
-    worldToTileCoordinates((player.position.x - player.size.x/2 + 0.2), player.position.y, &gridX, &gridY);
+    worldToTileCoordinates((player.position.x - player.size.x/2 - 0.03), player.position.y, &gridX, &gridY);
     collision = checkTileCollision(gridX, gridY, gridX, gridY);
     if(collision){
         player.velocity.x = 0;
-        player.position.x += -0.0005 - 0.225 + (player.position.x - player.size.x/2) - ((gridX) * TILE_SIZE);
+        player.position.x += (player.position.x - player.size.x/2) - (((gridX) * TILE_SIZE) + TILE_SIZE);
         player.collidedLeft = true;
         collision = false;
     }
     
     //Right
-    worldToTileCoordinates((player.position.x + player.size.x/2 - 0.175), player.position.y, &gridX, &gridY);
+    worldToTileCoordinates((player.position.x + player.size.x/2), player.position.y, &gridX, &gridY);
     collision = checkTileCollision(gridX, gridY, gridX, gridY);
     if(collision){
         player.velocity.x = 0;
-        player.position.x += -0.0005 + 0.225 + (player.position.x - player.size.x/2) - ((gridX) * TILE_SIZE);
+        player.position.x -= (player.position.x + player.size.x/2) - ((gridX) * TILE_SIZE);
         player.collidedRight = true;
         collision = false;
     }
@@ -526,7 +526,7 @@ void Setup(){
     player.position = glm::vec3(8.0f * TILE_SIZE, -14.0f * TILE_SIZE, 0.0f);
 
     player.velocity = glm::vec3(0.0f, 0.0f, 0.0f);
-    player.size.x = 0.5f;
+    player.size.x = 0.3f;
     player.size.y = 0.5f;
     
     glEnable(GL_BLEND);
@@ -558,7 +558,14 @@ void ProcessInput(){
         else if (event.type == SDL_KEYUP){
             if (event.key.keysym.scancode == SDL_SCANCODE_SPACE && player.collidedBottom == true){
                 player.velocity.y = 3.5f;
+                if (event.key.keysym.scancode == SDL_SCANCODE_LEFT) {
+                    player.acceleration.x = -15.0f;
+                }
+                else if (event.key.keysym.scancode == SDL_SCANCODE_RIGHT){
+                    player.acceleration.x = 15.0f;
+                }
             }
+            
         }
     }
 }
@@ -595,7 +602,7 @@ void Update(float elapsed){
     player.position.x += player.velocity.x * elapsed;
     collisionX();
     
-    player.acceleration = glm::vec3(0.0f, 0.0f, 0.0f);\
+    player.acceleration = glm::vec3(0.0f, 0.0f, 0.0f);
     
     checkObjectCollision();
 }
@@ -611,7 +618,7 @@ void Render(){
     program.SetViewMatrix(viewMatrix);
     
     modelMatrix = glm::translate(modelMatrix, player.position);
-    modelMatrix = glm::scale(modelMatrix, glm::vec3(0.5f, 0.5f, 1.0f));
+    modelMatrix = glm::scale(modelMatrix, glm::vec3(1.5f, 1.5f, 1.0f));
     program.SetModelMatrix(modelMatrix);
     
     DrawSpriteSheetSprite(program, playerTexture, runAnimation[currentIndex], 8, 4);

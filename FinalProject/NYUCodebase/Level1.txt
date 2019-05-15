@@ -1,0 +1,190 @@
+[header]
+width=16
+height=19
+tilewidth=20
+tileheight=20
+orientation=orthogonal
+background_color=0,0,0,255
+
+[tilesets]
+tileset=../../HW#4/NYUCodebase/spritesheet_rgba.png,20,20,0,0
+tileset=../../HW#4/NYUCodebase/spritesheet_rgba.png,20,20,0,0
+
+[layer]
+type=Tile Layer 1
+data=
+790,692,693,0,0,0,0,0,0,0,0,0,0,691,692,700,
+692,790,693,0,0,0,0,0,0,0,0,0,0,691,700,692,
+692,700,693,0,0,0,0,0,0,0,0,0,0,691,692,692,
+692,692,693,0,0,0,0,0,0,0,0,0,0,691,692,700,
+692,700,693,0,0,0,700,700,700,700,0,0,0,691,692,700,
+700,692,693,700,700,0,0,0,0,0,0,700,700,691,790,692,
+692,790,693,0,0,0,0,0,0,0,0,0,0,691,692,692,
+692,692,693,700,700,700,0,0,0,0,700,700,700,691,692,692,
+692,700,693,0,0,0,0,0,0,0,0,0,0,691,700,692,
+692,692,693,0,0,0,0,700,700,0,0,0,0,691,692,700,
+790,692,693,0,0,0,0,0,0,0,0,0,0,691,790,692,
+692,692,693,0,0,0,700,700,700,700,0,0,0,691,692,692,
+692,692,693,0,0,0,0,0,0,0,0,0,0,691,692,692,
+692,790,693,700,700,0,0,0,0,0,0,700,700,691,692,700,
+692,692,693,0,0,0,0,700,700,0,0,0,0,691,692,692,
+700,692,693,0,0,0,700,692,692,700,0,0,0,691,700,692,
+790,692,693,700,700,700,700,692,692,700,700,700,700,691,692,790,
+692,700,692,692,692,790,692,692,692,790,692,692,692,692,700,692,
+692,692,692,700,692,692,692,700,692,692,692,700,692,700,692,692
+
+[ObjectLayer]
+# Coin
+type=ITEM_COIN
+location=4,16,1,1
+
+[ObjectLayer]
+# Coin
+type=ITEM_COIN
+location=5,16,1,1
+
+[ObjectLayer]
+# Coin
+type=ITEM_COIN
+location=10,16,1,1
+
+[ObjectLayer]
+# Coin
+type=ITEM_COIN
+location=11,16,1,1
+
+[ObjectLayer]
+# Coin
+type=ITEM_COIN
+location=3,13,1,1
+
+[ObjectLayer]
+# Coin
+type=ITEM_COIN
+location=4,13,1,1
+
+[ObjectLayer]
+# Coin
+type=ITEM_COIN
+location=6,11,1,1
+
+[ObjectLayer]
+# Coin
+type=ITEM_COIN
+location=7,11,1,1
+
+[ObjectLayer]
+# Coin
+type=ITEM_COIN
+location=8,11,1,1
+
+[ObjectLayer]
+# Coin
+type=ITEM_COIN
+location=9,11,1,1
+
+[ObjectLayer]
+# Coin
+type=ITEM_COIN
+location=11,13,1,1
+
+[ObjectLayer]
+# Coin
+type=ITEM_COIN
+location=12,13,1,1
+
+[ObjectLayer]
+# Coin
+type=ITEM_COIN
+location=7,9,1,1
+
+[ObjectLayer]
+# Coin
+type=ITEM_COIN
+location=8,9,1,1
+
+[ObjectLayer]
+# Coin
+type=ITEM_COIN
+location=3,7,1,1
+
+[ObjectLayer]
+# Coin
+type=ITEM_COIN
+location=4,7,1,1
+
+[ObjectLayer]
+# Coin
+type=ITEM_COIN
+location=5,7,1,1
+
+[ObjectLayer]
+# Coin
+type=ITEM_COIN
+location=10,7,1,1
+
+[ObjectLayer]
+# Coin
+type=ITEM_COIN
+location=11,7,1,1
+
+[ObjectLayer]
+# Coin
+type=ITEM_COIN
+location=12,7,1,1
+
+[ObjectLayer]
+# Coin
+type=ITEM_COIN
+location=12,5,1,1
+
+[ObjectLayer]
+# Coin
+type=ITEM_COIN
+location=3,5,1,1
+
+[ObjectLayer]
+# Coin
+type=ITEM_COIN
+location=4,5,1,1
+
+[ObjectLayer]
+# Coin
+type=ITEM_COIN
+location=11,5,1,1
+
+[ObjectLayer]
+# Coin
+type=ITEM_COIN
+location=9,4,1,1
+
+[ObjectLayer]
+# Coin
+type=ITEM_COIN
+location=8,4,1,1
+
+[ObjectLayer]
+# Coin
+type=ITEM_COIN
+location=7,4,1,1
+
+[ObjectLayer]
+# Coin
+type=ITEM_COIN
+location=6,4,1,1
+
+[ObjectLayer]
+# Enemy
+type=ENTITY_ENEMY
+location=3,16,1,1
+
+[ObjectLayer]
+# Enemy
+type=ENTITY_ENEMY
+location=12,16,1,1
+
+[ObjectLayer]
+# Enemy
+type=ENTITY_ENEMY
+location=7,4,1,1
+

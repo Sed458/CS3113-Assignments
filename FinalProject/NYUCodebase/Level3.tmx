@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="right-down" width="16" height="19" tilewidth="20" tileheight="20" infinite="0" nextlayerid="8" nextobjectid="57">
+ <tileset firstgid="1" source="../../HW#4/NYUCodebase/MySprites.tsx"/>
+ <layer id="7" name="Tile Layer 1" width="16" height="19">
+  <data encoding="base64">
+   3wIAAN8CAADfAgAA3wIAAN8CAADfAgAA3wIAAAAAAAAAAAAA3wIAAN8CAADfAgAA3wIAAN8CAADfAgAA3wIAAN8CAADfAgAA3wIAAN8CAADfAgAA3wIAAN8CAAAAAAAAAAAAAN8CAADfAgAA3wIAAN8CAADfAgAA3wIAAN8CAADfAgAA3wIAAOECAADhAgAA4QIAAOECAADfAgAAAAAAAAAAAADfAgAA4QIAAOECAADhAgAA3wIAAN8CAADfAgAA3wIAAN8CAADhAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOECAADfAgAA3wIAAN8CAADfAgAA4QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADhAgAA3wIAAN8CAADfAgAA3wIAAOECAADAAAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAAAAAAAAAAAADAAAAA4QIAAN8CAADfAgAA3wIAAN8CAADfAgAAwAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAwAAAAOECAADfAgAA3wIAAN8CAADfAgAA3wIAAMAAAADAAAAAwAAAAMAAAAAAAAAAAAAAAMAAAADAAAAAwAAAAMAAAADhAgAA3wIAAN8CAADfAgAA3wIAAOECAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4QIAAN8CAADfAgAA3wIAAN8CAADhAgAAAAAAAAAAAAAAAAAAAAAAAMAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAOECAADfAgAA3wIAAN8CAADfAgAA4QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADhAgAA3wIAAN8CAADfAgAA3wIAAOECAADAAAAAwAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAMAAAADAAAAA4QIAAN8CAADfAgAA3wIAAN8CAADhAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOECAADfAgAA3wIAAN8CAADfAgAA4QIAAAAAAAAAAAAAAAAAAMAAAADAAAAAwAAAAMAAAAAAAAAAAAAAAAAAAADhAgAA3wIAAN8CAADfAgAA3wIAAOECAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4QIAAN8CAADfAgAA3wIAAN8CAADhAgAA4QIAAOECAADhAgAA4QIAAAAAAAAAAAAA4QIAAOECAADhAgAA4QIAAOECAADfAgAA3wIAAN8CAADfAgAA3wIAAN8CAADfAgAA3wIAAN8CAAAAAAAAAAAAAN8CAADfAgAA3wIAAN8CAADfAgAA3wIAAN8CAADfAgAA3wIAAN8CAADfAgAA3wIAAN8CAADfAgAAAAAAAAAAAADfAgAA3wIAAN8CAADfAgAA3wIAAN8CAADfAgAA3wIAAN8CAADfAgAA3wIAAN8CAADfAgAA3wIAAAAAAAAAAAAA3wIAAN8CAADfAgAA3wIAAN8CAADfAgAA3wIAAA==
+  </data>
+ </layer>
+ <objectgroup id="4" name="ObjectLayer">
+  <object id="29" name="Coin" type="ITEM_COIN" gid="79" x="60" y="220" width="20" height="20"/>
+  <object id="30" name="Coin" type="ITEM_COIN" gid="79" x="80" y="220" width="20" height="20"/>
+  <object id="31" name="Coin" type="ITEM_COIN" gid="79" x="100" y="220" width="20" height="20"/>
+  <object id="32" name="Coin" type="ITEM_COIN" gid="79" x="200" y="220" width="20" height="20"/>
+  <object id="33" name="Coin" type="ITEM_COIN" gid="79" x="220" y="220" width="20" height="20"/>
+  <object id="34" name="Coin" type="ITEM_COIN" gid="79" x="240" y="220" width="20" height="20"/>
+  <object id="35" name="Coin" type="ITEM_COIN" gid="79" x="100" y="140" width="20" height="20"/>
+  <object id="36" name="Coin" type="ITEM_COIN" gid="79" x="120" y="140" width="20" height="20"/>
+  <object id="37" name="Coin" type="ITEM_COIN" gid="79" x="80.085" y="120" width="20" height="20"/>
+  <object id="38" name="Coin" type="ITEM_COIN" gid="79" x="60.085" y="100" width="20" height="20"/>
+  <object id="39" name="Coin" type="ITEM_COIN" gid="79" x="180" y="140" width="20" height="20"/>
+  <object id="40" name="Coin" type="ITEM_COIN" gid="79" x="200" y="140" width="20" height="20"/>
+  <object id="41" name="Coin" type="ITEM_COIN" gid="79" x="220" y="120" width="20" height="20"/>
+  <object id="42" name="Coin" type="ITEM_COIN" gid="79" x="240.208" y="100" width="19.5" height="19.5"/>
+  <object id="43" name="Coin" type="ITEM_COIN" gid="79" x="140" y="180" width="20" height="20"/>
+  <object id="44" name="Coin" type="ITEM_COIN" gid="79" x="160" y="180" width="20" height="20"/>
+  <object id="45" name="Coin" type="ITEM_COIN" gid="79" x="120" y="260" width="20" height="20"/>
+  <object id="46" name="Coin" type="ITEM_COIN" gid="79" x="140" y="260" width="20" height="20"/>
+  <object id="47" name="Coin" type="ITEM_COIN" gid="79" x="160" y="260" width="20" height="20"/>
+  <object id="48" name="Coin" type="ITEM_COIN" gid="79" x="180" y="260" width="20" height="20"/>
+  <object id="49" name="Coin" type="ITEM_COIN" gid="79" x="60" y="300" width="20" height="20"/>
+  <object id="50" name="Coin" type="ITEM_COIN" gid="79" x="80" y="300" width="20" height="20"/>
+  <object id="51" name="Coin" type="ITEM_COIN" gid="79" x="100" y="300" width="20" height="20"/>
+  <object id="52" name="Coin" type="ITEM_COIN" gid="79" x="120" y="300" width="20" height="20"/>
+  <object id="53" name="Coin" type="ITEM_COIN" gid="79" x="180" y="300" width="20" height="20"/>
+  <object id="54" name="Coin" type="ITEM_COIN" gid="79" x="200" y="300" width="20" height="20"/>
+  <object id="55" name="Coin" type="ITEM_COIN" gid="79" x="220" y="300" width="20" height="20"/>
+  <object id="56" name="Coin" type="ITEM_COIN" gid="79" x="240" y="300" width="20" height="20"/>
+ </objectgroup>
+</map>
